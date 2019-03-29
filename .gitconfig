@@ -1,0 +1,69 @@
+alias]
+	# one-line log
+	l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+
+	# pushes the current branch
+	po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+
+	# force pushes the current branch
+	fpo = "!git push -f --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+
+	a = add
+	ap = add -p
+	ci = commit --verbose
+	ca = commit -a --verbose
+	cm = commit -m
+	cam = commit -a -m
+	m = commit --amend --verbose
+
+	d = diff
+	ds = diff --stat
+	dc = diff --cached
+
+        st = "!git add -A && git stash"
+	s = status
+	co = checkout
+	cob = checkout -b
+
+	# list branches sorted by last modified
+	b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+ 	# list aliases
+	la = "!git config -l | grep alias | cut -c 7-"
+
+[color]
+
+	  # Use colors in Git commands that are capable of colored output when
+	  # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+	  ui = auto
+
+[color "branch"]
+
+	  current = yellow reverse
+	  local = yellow
+	  remote = green
+
+[color "diff"]
+
+	  meta = yellow bold
+	  frag = magenta bold # line info
+	  old = red # deletions
+	  new = green # additions
+
+[color "status"]
+
+	  added = yellow
+	  changed = green
+	  untracked = cyan
+
+[commit]
+
+	  # https://help.github.com/articles/signing-commits-using-gpg/
+	  gpgsign = true
+	gpgsign = false
+[gpg]
+	program = gpg2
+[user]
+	signingkey = 0CFEA6EDD5E95A83
+	name = Rahul Sambari
+	e
