@@ -4,5 +4,7 @@
 
 # Create symlinks by using below commands:
 `ln -s ~/.my_dev_configs/.bash_profile ~/.bash_profile`
+
 `ln -s ~/.my_dev_configs/.gitconfig ~/.gitconfig`
+
 `ln -s ~/.my_dev_configs/tmux.conf ~/tmux.conf`
