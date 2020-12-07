@@ -7,4 +7,4 @@
 
 `ln -s ~/.my_dev_configs/.gitconfig ~/.gitconfig`
 
-`ln -s ~/.my_dev_configs/tmux.conf ~/tmux.conf`
+`ln -s ~/.my_dev_configs/.tmux.conf ~/.tmux.conf`
