@@ -121,4 +121,12 @@ PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
 export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";
-e
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+export THINKIFICPATH=$HOME
+export AWS_PROFILE_NAME=think-dev
+export SECRET_IDS=dev/rails-env-1,dev/rails-env-2
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

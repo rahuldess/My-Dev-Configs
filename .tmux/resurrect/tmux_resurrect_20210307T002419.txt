@@ -1,0 +1,15 @@
+pane	0	1	:Thinkific	1	:*Z	1	:/home/mrrobot/workspace/thinkific	0	vim	:vim .
+pane	0	1	:Thinkific	1	:*Z	2	:/home/mrrobot	1	bash	:
+pane	0	2	:Payments	0	:	1	:/home/mrrobot/workspace/payments	1	vim	:vim .
+pane	0	2	:Payments	0	:	2	:/home/mrrobot/workspace/payments	0	bash	:
+pane	0	3	:Checkout	0	:-	1	:/home/mrrobot/workspace/checkout	0	vim	:vim .
+pane	0	3	:Checkout	0	:-	2	:/home/mrrobot/workspace/checkout	1	bash	:
+pane	0	4	:Gambier	0	:	1	:/home/mrrobot/workspace/gambier	1	vim	:vim .
+pane	0	4	:Gambier	0	:	2	:/home/mrrobot/workspace/gambier	0	bash	:
+pane	0	5	:Docker Services	0	:	1	:/home/mrrobot	1	bash	:
+window	0	1	1	:*Z	92e4,190x49,0,0{95x49,0,0,0,94x49,96,0,1}
+window	0	2	0	:	92ad,190x49,0,0{95x49,0,0,2,94x49,96,0,3}
+window	0	3	0	:-	12fc,190x49,0,0{95x49,0,0,5,94x49,96,0,8}
+window	0	4	0	:	c9d6,190x49,0,0{95x49,0,0,7,94x49,96,0,10}
+window	0	5	0	:	d0c6,190x49,0,0,9
+state	0	

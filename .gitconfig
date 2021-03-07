@@ -1,4 +1,4 @@
-alias]
+[alias]
 	# one-line log
 	l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
 
@@ -20,7 +20,7 @@ alias]
 	ds = diff --stat
 	dc = diff --cached
 
-        st = "!git add -A && git stash"
+  st = "!git add -A && git stash"
 	s = status
 	co = checkout
 	cob = checkout -b
@@ -32,38 +32,29 @@ alias]
 	la = "!git config -l | grep alias | cut -c 7-"
 
 [color]
-
 	  # Use colors in Git commands that are capable of colored output when
 	  # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
 	  ui = auto
-
 [color "branch"]
-
 	  current = yellow reverse
 	  local = yellow
 	  remote = green
-
 [color "diff"]
-
 	  meta = yellow bold
 	  frag = magenta bold # line info
 	  old = red # deletions
 	  new = green # additions
-
 [color "status"]
-
 	  added = yellow
 	  changed = green
 	  untracked = cyan
-
 [commit]
-
 	  # https://help.github.com/articles/signing-commits-using-gpg/
 	  gpgsign = true
-	gpgsign = false
+		gpgsign = false
 [gpg]
 	program = gpg2
 [user]
 	signingkey = 0CFEA6EDD5E95A83
 	name = Rahul Sambari
-	e
+	email = sandslash.rahul@gmail.com
