@@ -10,3 +10,5 @@
 `ln -s ~/.my_dev_configs/.tmux.conf ~/.tmux.conf`
 
 `ln -s ~/.my_dev_configs/.tmux ~/.tmux`
+
+`ln -s ~/.my_dev_configs/vim/.vimrc ~/.vimrc`
